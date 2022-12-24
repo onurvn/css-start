@@ -1,0 +1,33 @@
+#container {
+    width: 1140px;
+    background-color: rgb(70, 63, 76);
+    font-family: Lato;
+    font-size: 20px;
+    display: inline-block;
+    border: 5px solid gainsboro;
+    
+
+
+}
+
+#blog-post-container {
+
+    width: 75%;
+    background-color: rgb(98, 123, 113);
+  
+}
+
+#other-posts {
+    font-family: Lato;
+    width: 25%;
+    background-color: rgb(202, 225, 198);
+
+}
+
+#author-box {
+    font-family: Lato;
+    border: 5px solid rgb(8, 4, 7)
+}
+.blog-text{
+    text-align: justify;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Borders</title>
+    <style>
+        body {
+            margin: 0px;
+            background-color: grey;
+            font-family: Lato;
+
+        }
+
+        .box {
+            width: 122px;
+            height: 122px;
+            background-color: whitesmoke;
+            margin: 10px;
+            padding: 10px;
+
+        }
+
+        #first {
+            border-top-width: 1px;
+            border-right-width: 2px;
+            border-bottom-width: 3px;
+            border-top-width: 4px;
+
+            border-top-style: solid;
+            border-right-style: dashed;
+            border-left-style: groove;
+            border-bottom-style: double;
+
+            border-top-color: red;
+            border-right-color: blueviolet;
+            border-bottom-color: cyan;
+            border-left-color: darkslateblue;
+        }
+
+        #second {
+            border-top: 2px solid rgb(255, 0, 200);
+            border-top-left-radius: 15px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 40px;
+        }
+
+        #third {
+            border: 3px solid green;
+            border-radius: 40%;
+        }
+
+        #msgbox {
+            background-color: rgb(123, 77, 77);
+            border-left: 5px solid green;
+            margin: 10px;
+            padding: 20px;
+            color: wheat;
+            font-family: Lato;
+            transition: background-color  2s linear;
+        }
+
+        #msgbox:hover {
+            background-color: rgba(163, 123, 123, 1);
+            border-color: #561717;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box" id="first">BOX 1</div>
+    <div class="box" id="second">BOX 2</div>
+    <div class="box" id="third">BOX 3</div>
+    <div id="msgbox">Message Box</div>
+
+
+
+
+
+
+</body>
+
+</html>

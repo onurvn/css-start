@@ -1,0 +1,50 @@
+#container {
+    width: 1140px;
+    display: inline-block;
+
+}
+
+#blog-post-container {
+    width: 75%;
+    float: left;
+    
+}
+
+#other-posts {
+    width: 25%;
+    display: inline-block;
+    position: fixed;
+    top: 20px;
+    right: 0px;
+    
+}
+
+#author-box {
+    font-family: Lato;
+
+}
+
+.tags {
+    margin: 0;
+    padding: 0;
+}
+
+.tags li {
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+
+}
+
+.tags li a {
+    text-decoration: none;
+}
+.date{
+    position: absolute;
+    right: 50px;
+    top: 0px;
+}
+.blog-post{
+    position: relative;
+    
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uygulama Positioning</title>
+</head>
+<style>
+    .box {
+        width: 120px;
+        height: 120px;
+    }
+
+    .mbox {
+        width: 30px;
+        height: 30px;
+        background-color: rgb(106, 0, 255);
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+
+    #first {
+        background-color: brown;
+        width: 100%;
+        position: sticky;
+        top: 100px;
+    }
+
+    #second {
+        background-color: blueviolet;
+        position: relative;
+
+
+    }
+
+    #third {
+        background-color: chartreuse;
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+
+    }
+</style>
+
+<body>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis culpa, non placeat possimus repellat
+        id explicabo perferendis eum, consequuntur pariatur atque voluptas ea natus vero sint ratione iste?
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis culpa, non placeat possimus repellat
+        
+    </p>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis culpa, non placeat possimus repellat
+        id explicabo perferendis eum, consequuntur pariatur atque voluptas ea natus vero sint ratione iste?
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis culpa, non placeat possimus repellat
+       
+    </p>
+    <div class="box" id="first">Box 1</div>
+    <div class="box" id="second">Box 2
+        <div class="mbox">Mbox</div>
+    </div>
+    <div class="box" id="third">Box 3</div>
+    <div style="height: 2000px"></div>
+
+
+
+
+
+</body>
+
+</html>

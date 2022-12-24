@@ -1,0 +1,35 @@
+p[title] {
+    border: solid 1px gray;
+    padding: 5px;
+}
+
+p[title="third paragraph"] {
+    background-color: gold;
+}
+
+p[title="forth paragraph"] {
+    background-color: aquamarine;
+}
+
+a[href^="http"] {
+    color: rgb(13, 177, 119);
+}
+
+
+a[href="https://www.example.com"][target="_blank"] {
+    color: rgb(232, 8, 228);
+}
+
+input[type="button"] {
+    display: block;
+    width: 100px;
+    background-color: bisque;
+}
+
+input[type="button"] {
+    display: block;
+    height: 100px;
+    color: rgb(0, 3, 8);
+    background-color: rgb(107, 47, 102);
+    padding: 50px 10px;
+}
